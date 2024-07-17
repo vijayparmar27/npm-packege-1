@@ -2,7 +2,7 @@
   "name": "npm-packege",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "mongoose": "^8.5.1"
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   }
 }
