@@ -1,4 +1,10 @@
 // src/index.ts
-export const greet = (name: string): string => {
-  return `Hello, ${name}!`;
-};
+
+export interface MyInterface {
+  name: string;
+  age: number;
+}
+
+export function greet(person: MyInterface): string {
+  return `Hello, ${person.name}! You are ${person.age} years old.`;
+}
